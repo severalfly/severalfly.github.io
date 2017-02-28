@@ -3,3 +3,5 @@ description: severalfly 个人博客，一起分享知识
 show_downloads: false
 google_analytics:
 theme:
+
+theme: jekyll-theme-leap-day
