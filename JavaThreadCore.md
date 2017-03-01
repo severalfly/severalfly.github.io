@@ -25,3 +25,6 @@ layout: default
 > 当A 线程调用anyObject 对象加入 synchronized 关键字的X 方法时，A 线程就获得了X 方法所在对象的锁，所以其他线程必须等A 线程执行完毕才可以调用X 方法，而B 线程如果调用声明了 synchronized 关键字的非X 方法时，必须等A 线程X 方法执行完，也就是释放对象锁后，才可以调用。这时A 线程已经执行了一个完整的任务，也就是说username 和 password 这两个实例变量已经同时被赋值，不存在脏读的基本环境
 
 
+
+一起学习群
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=11c2e67fa3a7a504fff4a17c3fb89185d5a1fcf23ac13570a371551d24ef04dd"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="一起学JAVA吧" title="一起学JAVA吧"></a>
