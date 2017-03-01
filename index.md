@@ -42,6 +42,14 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+```java
+public class Test
+{
+  private String a;
+  private String a;
+}
+```
+
 #### [](#header-4)Header 4
 
 *   This is an unordered list following a header.
