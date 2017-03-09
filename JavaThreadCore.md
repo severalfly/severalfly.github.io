@@ -24,7 +24,22 @@ layout: default
 
 > 当A 线程调用anyObject 对象加入 synchronized 关键字的X 方法时，A 线程就获得了X 方法所在对象的锁，所以其他线程必须等A 线程执行完毕才可以调用X 方法，而B 线程如果调用声明了 synchronized 关键字的非X 方法时，必须等A 线程X 方法执行完，也就是释放对象锁后，才可以调用。这时A 线程已经执行了一个完整的任务，也就是说username 和 password 这两个实例变量已经同时被赋值，不存在脏读的基本环境
 
+### synchronized 锁重入
+> 当一个线程得到一个对象锁后，再次请求此对象锁时是可以再次得到该对象的锁的。这也证明在一个 synchronized  方法/块的内部调用本类的其他 synchronized 方法/块时，是永远可以得到锁的
+
+### 出现异常，锁自动释放
+> 当一个线程执行的代码出现异常时，其所持有的锁会自动释放
+
+### 同步不具有继承性
+这个不理解
+
+### synchronized 某些弊端
+synchronized 声明方法在某些情况下是有弊端的，比如A线程调用同步方法执行一个长时间的任务，那么B线程则必须等待比较长时间。在这样的情况下可以使用*synchronized同步语句块*
 
 
-一起学习群
+
+
+
+
+一起学习JAVA
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=11c2e67fa3a7a504fff4a17c3fb89185d5a1fcf23ac13570a371551d24ef04dd"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="一起学JAVA吧" title="一起学JAVA吧"></a>
