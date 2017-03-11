@@ -48,6 +48,7 @@ synchronized 声明方法在某些情况下是有弊端的，比如A线程调用
 多个线程调用同一个对象中的不同名称的 synchronized同步方法或者 synchronized(this) 同步代码块时，调用的效果就是按顺序执行，也就是同步的阻塞的。
 
 synchronized 同步方法或 synchronized(this) 同步代码块分别有两种作用
+
 1. synchronized 同步方法
 	* 对其他 synchronized 同步方法或 synchronized(this) 同步代码块调用呈阻塞状态。
 	* 同一时间只有一个线程可以执行 synchronized 同步方法中的代码
@@ -55,6 +56,31 @@ synchronized 同步方法或 synchronized(this) 同步代码块分别有两种�
 	* 对其他 synchronized(this) 同步方法或 synchronized(this) 同步代码块调用呈阻塞状态
 	* 同一时间只有一个线程可以执行 synchronized(this) 同步代码块中的代码
 
+### 多个线程调用同一个方法是随机的
 
+### synchronized(非this对象x)  
+这种格式的写法是将x 对象本身作为“对象监视器”，这样就可以得出以下3个结论：
+
+1. 当多个线程同时执行 `synchronized(x){}`同步代码块时呈同步效果；
+2. 当其他线程执行x对象中 synchronized 同步方法时呈同步效果
+3. 当其他线程执行 x 对象方法里面的 synchronized(this)  代码块时，也呈现同步效果
+
+
+### 静态同步 synchronized 方法与 synchronized(class) 代码块
+synchronized 关键字保到 static 静态方法上是给Class 类上锁，而 synchronized 关键字加到非static 静态方法上是给对象上锁  
+目测这两个有本质的不同
+
+
+### String 常量池带来的问题
+
+两个线程拥有相同锁，所以会造成B 不能执行，即两个线程都锁相同的String 时，就会存在这机关报问题
+[有代码为证](https://github.com/severalfly/MyTest/tree/master/JavaLearning/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF-JAVA%20Core/src/main/java/org/ch2/stringAndSyn)
+
+
+
+
+---
+
+---
 一起学习JAVA
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=11c2e67fa3a7a504fff4a17c3fb89185d5a1fcf23ac13570a371551d24ef04dd"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="一起学JAVA吧" title="一起学JAVA吧"></a>
