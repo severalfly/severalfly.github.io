@@ -36,9 +36,24 @@ layout: default
 ### synchronized 某些弊端
 synchronized 声明方法在某些情况下是有弊端的，比如A线程调用同步方法执行一个长时间的任务，那么B线程则必须等待比较长时间。在这样的情况下可以使用*synchronized同步语句块*
 
+### 虽然线程A 先持有了object 对象的锁，但线程B完全可以异步调用非 synchronized 类型的方法
+>如果A 线程先持有object 对象的Lock 锁，B 线程如果在这时调用object 对象中的 synchronized 类型的方法，则需等待，也就是同步了
 
+### synchronized 代码块间的同步性
+> 在使用同步 synchronized(this) 代码块时需要注意的是，当一个线程访问object 的一个 synchronized(this) 同步代码块时，其他线程对同一个 object 中所有其他 synchronized(this) 同步代码块的访问将被阻塞，这说明 synchronized 使用的 “对象监视器”是一个。
 
+### synchronized(this) 代码块是锁定当前对象的
 
+### 将任意对象作为对象监视器
+多个线程调用同一个对象中的不同名称的 synchronized同步方法或者 synchronized(this) 同步代码块时，调用的效果就是按顺序执行，也就是同步的阻塞的。
+
+synchronized 同步方法或 synchronized(this) 同步代码块分别有两种作用
+1. synchronized 同步方法
+	* 对其他 synchronized 同步方法或 synchronized(this) 同步代码块调用呈阻塞状态。
+	* 同一时间只有一个线程可以执行 synchronized 同步方法中的代码
+2. synchronized(this) 同步代码块
+	* 对其他 synchronized(this) 同步方法或 synchronized(this) 同步代码块调用呈阻塞状态
+	* 同一时间只有一个线程可以执行 synchronized(this) 同步代码块中的代码
 
 
 一起学习JAVA
