@@ -77,6 +77,12 @@ synchronized 关键字保到 static 静态方法上是给Class 类上锁，而 s
 [有代码为证](https://github.com/severalfly/MyTest/tree/master/JavaLearning/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF-JAVA%20Core/src/main/java/org/ch2/stringAndSyn)
 
 
+### volatile 
+会保证数据的可见性，但是不保证数据的原子性，即，一个线程修改可以使用其他所有线程同步修改；但是，多个线程同时修改时，就会造成脏读。  
+这个关键字适用于一个主线程控制其他线程的运行与停止的情况，其他的情况慎重使用，  
+目前的 synchronized 性能也得到大的提升，
+
+
 
 
 ---
