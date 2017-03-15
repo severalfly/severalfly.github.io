@@ -97,3 +97,5 @@ volatile 不保证原子性，像 i++ 这样的，i = i + 1 就不适用
 ---
 一起学习JAVA
 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=11c2e67fa3a7a504fff4a17c3fb89185d5a1fcf23ac13570a371551d24ef04dd"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="一起学JAVA吧" title="一起学JAVA吧"></a>
+
+![关注我](https://cl.ly/3H3S1Q382I1J/qrcode8.jpg)
