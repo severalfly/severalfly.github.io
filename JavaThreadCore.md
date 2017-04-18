@@ -89,6 +89,12 @@ volatile 不保证原子性，像 i++ 这样的，i = i + 1 就不适用
 
 ![testImage](https://cl.ly/1b1p0S3Q1f3Q)
 
+# 第三章
 
+### notify 并不会立即释放锁
+notify 之后会继续持有锁，直到锁范围结束
+
+
+###
 
 
