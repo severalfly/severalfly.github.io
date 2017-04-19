@@ -101,3 +101,8 @@ notify 之后会继续持有锁，直到锁范围结束
 
 ### 通过管道进行线程间通信：字节流
 线程之间可以通过管道进行通信，关键一步，`out.connect(input);`使输入与输出相联接。[示例代码](https://github.com/severalfly/MyTest/tree/master/JavaLearning/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF-JAVA%20Core/src/main/java/org/ch3/pipeInputOutput)
+
+
+### join 方法 
+Thread.join() 方法是可以等待前一个线程执行完毕后，才开始执行的；
+Thread.join(time) 最长等待 time 毫秒，注意这个东西与`interrupt()`可能会产生异常
