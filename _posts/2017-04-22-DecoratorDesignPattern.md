@@ -11,3 +11,4 @@ title: 装饰模式
 总结下来就是把类中的装饰功能从类中搬移出去，以这样的方法简化原有的类，这样就有效地把类的核心职责与装饰功能区分开了
 
 实现方式是装饰类拥有核心类的引用，只要对这个所有操作都是对这个引用。[示例代码](https://github.com/severalfly/MyTest/tree/master/JavaLearning/designPattern/src/main/java/com/leon/decorator/result)
+
