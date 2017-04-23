@@ -136,3 +136,4 @@ public class ProxyMain
 4. 智能指引，指当调用真实的对象时，代理处理另一些事
 
 这种模式是在客户端不好直接访问被代理对象时使用，被代理对象可能会执行时间过长/不安全/有权限限制，这样使用代理就可以避免客户端的延迟现象
+![](http://oou15cuq6.bkt.clouddn.com//image/pattern/%E4%BB%A3%E7%A0%81%E6%A8%A1%E5%BC%8F%E5%B0%8F%E5%85%AD%E8%A1%A8%E7%99%BD_meitu_1.png)
