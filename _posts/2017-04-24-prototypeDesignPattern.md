@@ -9,7 +9,7 @@ title: 原型模式
 先上个例子
 
 本模式用的是个简历，这是简历原型，实现 `Cloneable` 接口，内部实现clone 方法
-```
+```java
 class Resume implements Cloneable
 {
 	private String name;
@@ -76,6 +76,6 @@ public class ResumeMain
 	}
 }
 ```
-直接复制，产生的新对象太快，注意会有浅复制的问题。下面来还原下
+直接复制，产生的新对象太快，注意会有浅复制的问题。下面来还原下P
 
 
