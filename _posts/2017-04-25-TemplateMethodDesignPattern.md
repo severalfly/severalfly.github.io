@@ -2,7 +2,7 @@
 layout: default
 title: 模版模式
 ---
-
+![](http://oou15cuq6.bkt.clouddn.com//image/pattern/%E6%A8%A1%E7%89%88%E6%A8%A1%E5%BC%8F_meitu_1.jpg)
 定义：一个操作中的算法的骨架，而将一些步骤延迟到子类中。模版方法可以使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤
 
 还是上例子
