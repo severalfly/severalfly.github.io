@@ -166,6 +166,7 @@ public class AccessDepartment implements IDepartment
 
 1. `switch` 关键词直接判断，可用
 2. 利用反射技术，此示例代码会抛出异常，因为配置的类的全路径需要修改，项目中是需要使用配置文件的，也就不会有此问题
+
 ```java
 public class DataAccess
 {
