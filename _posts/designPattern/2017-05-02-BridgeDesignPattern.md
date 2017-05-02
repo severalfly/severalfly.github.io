@@ -3,6 +3,7 @@ layout: default
 title: 桥接模式
 ---
 
+![](http://oou15cuq6.bkt.clouddn.com/image/pattern/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.png)
 
 定义：将抽象与它的实现分离，使它们都可以独立地变化。
 
