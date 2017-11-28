@@ -42,3 +42,34 @@ C Grammar practice
 unit 7
 A
 1. 3 3 1 4  4 2
+
+
+
+unit 8 
+A Focus
+1 language building
+    A
+1. read-> they're all reading the same book
+    sit -> the students all sit around the table
+    stand -> nobody stand in the picture
+    revise -> they revise before the final exam
+2. run -> the highway runs under the overpass
+    run -> the overpass goes slowly than the under
+    be(a sign) -> there is a sign on the overpass
+    ve(cars) -> there are many cars in the picture
+    divide(a guardrail) -> a guardrail is broken
+    B 
+    1
+    the woman is holding a cup of coffee
+    the woman is standing beside a table
+    2 the woman is siting on the table
+        the woman is looking the screen
+
+
+B D C A B
+D B B C A 
+D D
+
+
+
+
