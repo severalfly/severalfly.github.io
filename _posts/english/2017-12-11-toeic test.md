@@ -75,32 +75,32 @@ A
     1. a:3 6; b:1 7; c:4 8s   d:2 5
 
 
-remove a hurdle 移除障碍物
+remove a hurdle 移除障碍物  
 place an order 下订单  
-remain to be 有待考虑
-speak clearly 说得很准确
-be eligible for 有资格做某事
-exhausted 耗尽的
-prescribe medication to sb 为某人开药
-notice the difference 注意到差别
-do corresponsedence 通信联系
-essential 是作出更改判断时使用的形容词，意思是“必要的”，因此应有一个表示“应当做某事”的should 与之搭配，但这里被省略了
-look into the data closely 深入研究资料
-make progress 取得进展
-expend one's business 拓展业务
-commitment to 献身于某事
+remain to be 有待考虑  
+speak clearly 说得很准确  
+be eligible for 有资格做某事  
+exhausted 耗尽的  
+prescribe medication to sb 为某人开药  
+notice the difference 注意到差别  
+do corresponsedence 通信联系  
+essential 是作出更改判断时使用的形容词，意思是“必要的”，因此应有一个表示“应当做某事”的should 与之搭配，但这里被省略了  
+look into the data closely 深入研究资料  
+make progress 取得进展  
+expend one's business 拓展业务  
+commitment to 献身于某事  
 逗号的后面经常出现-ing 的形式，  
-be ready for 为某事做好准备
-dispatch 发送
-shipping instruction 航运指导
-detailed terms 详细条款
-uponrequest 根据要求 
+be ready for 为某事做好准备  
+dispatch 发送  
+shipping instruction 航运指导  
+detailed terms 详细条款  
+uponrequest 根据要求  
 have a suggestion for 对某事有一个建议  
 in honor of 纪念某人  
-give a consent 赞成
-there is a clear indication that 明确指出  
-reasonable price 合理的价格  
-convince sb. that 说服某人某事  
+give a consent 赞成  
+there is a clear indication that 明确指出   
+reasonable price 合理的价格   
+convince sb. that 说服某人某事    
 heavy demand 而不是需求  
 prices quoted 报价  
 allow a descount 批准打折  
