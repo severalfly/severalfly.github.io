@@ -119,5 +119,45 @@ keep up with 跟上
 bearish （股票）看跌的  
 bullish （股票）看涨的  
 overlap in 在。。。上的重叠  
+shortly after 刚...之后  
+助动词与原型之间应填入副词 adversely affect = unfavorably affect 不利影响  
+consider 是以动名词为宾语的及物动词  
+be capable of sth 有能力做某事  
+original deadline 原始的最后期限  
+put in time 花费时间  
+hardly ever 几乎从不  
+presently underway 现在进行中  
+directly report 立刻报告  
+enormous amount of 十分大量的  
+return to one's work 回到工作岗位上 
+immediate supervisor 直属上司 
+bank statements(银行的)交易细目报告单  
+unanimously 无异议地  
+sonserve energy 节省能量的  
+raw material 原材料  
+domainance 支配（地位）、优势  
+presumption 假定  
+on the ground of 根据。。。由于。。。  
+while it may sound exaggerated 虽然听起来可能有些夸张  
+protective clothing 保护性衣物  
+be likely to 可能做某事  
+名词与名词之间一般填入 -ing 前提是填入的非谓语动词  
+through the courtesy of 蒙某人好意  
+enclosed is 随信附上  
+i regret to inform you that 很遗憾地通知您  
+on account of 因为 由于  
+generate fund  产生资金  
+冠词+形容词+___   这里一定是名词形式  
+vicious circle 恶性循环   virtuous circle 良性循环  
+protential clients 潜在客户  
+prevalent 流行、普及  
+foremost 一流的，最重要的  
+habitual 习惯的  
+breach an agreement 违反协议  
+speak to sb   speak about sth  
+be adequately prepared for 对。。。作充分的准备  
+fiscal year 会计年度  
+devise a strategy 策划一个战略  
+into the next decade 进入下一个10年  
 
 
