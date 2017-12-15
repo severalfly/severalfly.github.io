@@ -159,5 +159,20 @@ be adequately prepared for 对。。。作充分的准备
 fiscal year 会计年度  
 devise a strategy 策划一个战略  
 into the next decade 进入下一个10年  
-
+leave a lasting impression 留下了持久的印象  
+disposable income 可支配收入  
+real estate 不动产  
+althougn = though = even if = even though  
+waste disposal 废物处理  
+total expenditure 支出总额  
+demanding job 高要求的工作    
+spontaneously 自发地  
+durably 持久地  
+quotation 引用  
+bulky 体积大的  
+licensed 有执照的  
+be unaware of 未意识到  
+enclosed are 随信附上  
+for your reference 作为你的参考  
+lift a ban 解除禁令  
 
