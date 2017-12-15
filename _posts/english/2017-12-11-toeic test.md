@@ -175,4 +175,33 @@ be unaware of 未意识到
 enclosed are 随信附上  
 for your reference 作为你的参考  
 lift a ban 解除禁令  
-
+concentrate on 全神贯注于  
+make a strategy 制定战略  
+process an order 处理一个订单  
+mentioned 提到的  
+mutually agreed 达成共识的  
+gift packing 包装礼品  
+without any additional charge 没有任何附加费用  
+sufficiently strong 足够强壮的  
+in case = in the event that  
+引导时间、条件状语几分钟的连词 +主语+现在时/现在完成时，主语+将来时（或祈使句）  
+produce 表示“农产品”的意思，为不可数名词  
+reach an agreement 达成一致意见  
+student body 学生会  
+eventually = finally = ultimately = in the long run = in the end  
+be in effect 发挥效力  
+revised system 经过校正的系统  
+prominently displayed 出色地展示了  
+markedly increase 显著地增长  
+restrain 抑制（欲望等）  
+forbid 禁止  
+hesitate犹豫  
+involved in 与。。。有关  
+customer complaints 顾客抱怨  
+commitment to 对某事的承诺  remitance 汇款  endurance 忍耐  investment 投资  
+intrinsic value 内存价值  
+applicabel tax 适用税率  
+in danger of extinction 面临灭绝的危险  
+tentative agreement 临时协议  
+indicated below 如下指出  
+warehouse manager 仓库管理员  
