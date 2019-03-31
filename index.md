@@ -4,7 +4,7 @@ layout: default
 severalfly 2017-02-28 20:16:09
 
 [java多线程编程核心](JavaThreadCore)  
-[X天tensorFlow 入门](tensorflow/tfIndex)
+[X天tensorFlow 入门](tensorflow/tfIndex)  
 [囚徒健身](./other/qtjs/qtjsindex.md)
 
 <ul>
