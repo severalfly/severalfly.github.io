@@ -2,6 +2,7 @@
 layout: default
 title: 2020-02-07-Elasticsearch学习（2）--ES配置加载.md
 ---
+上节，我们学习到了如何从源码启动 elasticsearch，从现在开始我们来深入阅读源码
 
 本节来简单看一下 es 是如何加载配置的。
 
