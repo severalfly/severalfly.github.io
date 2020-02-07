@@ -25,3 +25,7 @@ title: 2020-02-07-Elasticsearch学习（2）--ES配置加载.md
 配置默认的 `cluster name`，如果在配置文件中已经存在，则不使用默认配置
 
 七，添加日志目录
+
+
+最后，希望本文对你有所启发，早日开始elasticSearch 的源码阅读
+=
