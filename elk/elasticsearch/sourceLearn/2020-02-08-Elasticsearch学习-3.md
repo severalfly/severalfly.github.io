@@ -9,7 +9,7 @@ title: Elasticsearch学习（3）--ES启动任务
 
 首先我们看一下任务是如何启动的，举一个例子，`injector.getInstance(IndicesService.class).start();` `IndicesService` 的唯一实现类为 `InternalIndicesService`，且 `InternalIndicesService` 又继承自 `AbstractLifecycleComponent`，同时 `AbstractLifecycleComponent` 有一个start 方法
 
-<img src="../../../images/elk/es/20200208/597BE0B4-7AA3-4D0D-8598-F7F21BED07AE.png" width = "80%" alt="start方法的实现" align=center />
+![](../../../images/elk/es/20200208/597BE0B4-7AA3-4D0D-8598-F7F21BED07AE.png)
   
 可以发现，其内部实际上调用的是 doStart() 方法，只不过是添加了一些控制，保证不重复启动之类的代码。
 
@@ -55,7 +55,8 @@ injector.getInstance(RestController.class).start();
 injector.getInstance(TransportService.class).start();
 DiscoveryService discoService = injector.getInstance(DiscoveryService.class).start();
 
-// gateway should start after disco, so it can try and recovery from gateway on "start"
+// gateway should start after disco, so it can try and recovery 
+from gateway on "start"
 // 网关任务
 injector.getInstance(GatewayService.class).start();
 
