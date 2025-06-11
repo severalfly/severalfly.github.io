@@ -15,3 +15,12 @@ layout: default
 </ul>
 
 2025年06月11日18:25:48
+
+<ul>
+  {% for post in site.my_posts %}
+    <li>
+      {{ post.date | date_to_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
