@@ -6,7 +6,7 @@ layout: default
 
  
 <ul>
-  {% for post in site._stock %}
+  {% for post in site.stock %}
     <li>
       {{ post.date | date_to_string }}
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -14,4 +14,4 @@ layout: default
   {% endfor %}
 </ul>
 
-
+2025年06月11日18:25:48
