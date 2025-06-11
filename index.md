@@ -8,6 +8,14 @@ severalfly 2017-02-28 20:16:09
 [囚徒健身](./other/qtjs/qtjsindex.md) 
 [elk](elk/elkindex.md) 
 [stock](stock/stockIndex.md) 
+<ul>
+  {% for post in site.my_posts %}
+    <li>
+      {{ post.date | date_to_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <ul>
 　　{% for post in site.posts %}
