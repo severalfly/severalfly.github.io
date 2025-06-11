@@ -8,3 +8,8 @@ collections:
   my_posts:  # 自定义集合名称
     output: true  # 是否生成独立页面
     permalink: /my_posts/:path/  # 自定义URL结构
+
+collections:
+  stock:  # 自定义集合名称
+    output: true  # 是否生成独立页面
+    permalink: /stock/:path/  # 自定义URL结构
