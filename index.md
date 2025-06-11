@@ -7,6 +7,7 @@ severalfly 2017-02-28 20:16:09
 [X天tensorFlow 入门](tensorflow/tfIndex)  
 [囚徒健身](./other/qtjs/qtjsindex.md)  
 [elk](elk/elkindex.md)
+[stock](stock/stockIndex.md)
 
 <ul>
 　　{% for post in site.posts %}
