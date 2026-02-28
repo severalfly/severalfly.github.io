@@ -14,6 +14,8 @@ collections:
   everyday:  # 自定义集合名称
     output: true  # 是否生成独立页面
     permalink: /everyday/:path/  # 自定义URL结构
-
+  english_si_wei:  # 自定义集合名称
+    output: true  # 是否生成独立页面
+    permalink: /english_si_wei/:path/  # 自定义URL结构
 
   

@@ -14,6 +14,8 @@ severalfly 2017-02-28 20:16:09
 
 [日更挑战](everyday_index.md) 
 
+
+[英语思维]()
 <ul>
   {% for post in site.my_posts %}
     <li>
