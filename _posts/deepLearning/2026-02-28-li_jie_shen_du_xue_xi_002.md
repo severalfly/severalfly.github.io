@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 理解深度学习，第一天
+title: 理解深度学习，第e二天
 ---
 1.1.4 深度学习网络
 
