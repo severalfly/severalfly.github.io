@@ -1,19 +1,16 @@
 ---
 layout: default
+title: 英语思维
 ---
 
-随着AI翻译的推进，也许未来的某一天，可以实现机器的直接翻译可用，但是对于日常的沟通交流，更多的还是需要有英语的思维，才能看懂很多的英文资料，大多数比较好的资料文档之类，都是英文提供的，翻译之后的翻版会存在比较大的差异。
-
-从英语的思维出发，改善自己在中文环境里面与英文的思维差异，更好的去理解英文内容。
-
- 
-<ul>
-  {% for post in site.english_si_wei %}
-    <li>
-      {{ post.date | date_to_string }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+<div class="section">
+  <h2 class="section-title">英语思维</h2>
+  <ul class="post-list">
+    {% for post in site.english_si_wei %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
-
-2026年2月28日17:13:49
+    {% endfor %}
+  </ul>
+</div>
