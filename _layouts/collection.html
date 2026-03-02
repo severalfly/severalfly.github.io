@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="section">
+  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+    <h2 class="section-title" style="margin-bottom: 0;">{{ page.title }}</h2>
+    {% page.description %}
+    <p style="color: var(--text-secondary);">{{ page.description }}</p>
+    {% endif %}
+  </div>
+
+  {% if page.collection %}
+  <ul class="post-list">
+    {% for post in site.[page.collection] %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+      {% if post.excerpt %}
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>

@@ -1,17 +1,16 @@
 ---
 layout: default
+title: 日更挑战
 ---
 
-
-
- 
-<ul>
-  {% for post in site.everyday %}
-    <li>
-      {{ post.date | date_to_string }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+<div class="section">
+  <h2 class="section-title">日更挑战</h2>
+  <ul class="post-list">
+    {% for post in site.everyday %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
-
-2025年10月21日18:32:54
+    {% endfor %}
+  </ul>
+</div>

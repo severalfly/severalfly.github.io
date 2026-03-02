@@ -1,17 +1,16 @@
 ---
 layout: default
+title: 股票分析
 ---
 
-
-
- 
-<ul>
-  {% for post in site.stock %}
-    <li>
-      {{ post.date | date_to_string }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
+<div class="section">
+  <h2 class="section-title">股票分析</h2>
+  <ul class="post-list">
+    {% for post in site.stock %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
     </li>
-  {% endfor %}
-</ul>
-
-2025年06月11日18:25:48
+    {% endfor %}
+  </ul>
+</div>
