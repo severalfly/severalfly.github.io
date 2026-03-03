@@ -22,7 +22,7 @@ layout: default
       </div>
     </a>
 
-    <a href="./other/qtjs/qtjsindex.md" class="link-card">
+    <a href="./other/qtjs/qtjsindex" class="link-card">
       <div class="link-card-icon">💪</div>
       <div class="link-card-content">
         <div class="link-card-title">囚徒健身</div>
@@ -30,7 +30,7 @@ layout: default
       </div>
     </a>
 
-    <a href="elk/elkindex.md" class="link-card">
+    <a href="elk/elkindex" class="link-card">
       <div class="link-card-icon">📊</div>
       <div class="link-card-content">
         <div class="link-card-title">ELK 技术栈</div>
@@ -38,7 +38,7 @@ layout: default
       </div>
     </a>
 
-    <a href="stock_index.md" class="link-card">
+    <a href="stock_index" class="link-card">
       <div class="link-card-icon">📈</div>
       <div class="link-card-content">
         <div class="link-card-title">股票分析</div>
@@ -46,7 +46,7 @@ layout: default
       </div>
     </a>
 
-    <a href="everyday_index.md" class="link-card">
+    <a href="everyday_index" class="link-card">
       <div class="link-card-icon">📅</div>
       <div class="link-card-content">
         <div class="link-card-title">日更挑战</div>
@@ -54,7 +54,7 @@ layout: default
       </div>
     </a>
 
-    <a href="english_si_wei.md" class="link-card">
+    <a href="english_si_wei" class="link-card">
       <div class="link-card-icon">🗣️</div>
       <div class="link-card-content">
         <div class="link-card-title">英语思维</div>
