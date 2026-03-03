@@ -100,7 +100,7 @@ layout: default
 </div>
 
 <div style="text-align: center; margin-top: 3rem;">
-  <a href="{{ site.baseurl }}/my_posts/" style="display: inline-block; padding: 0.75rem 2rem; background: linear-gradient(135deg, var(--primary), var(--accent)); color: white; border-radius: var(--radius); text-decoration: none; font-weight: 500; transition: transform 0.2s;">
+  <a href="{{ site.baseurl }}/posts_index" style="display: inline-block; padding: 0.75rem 2rem; background: linear-gradient(135deg, var(--primary), var(--accent)); color: white; border-radius: var(--radius); text-decoration: none; font-weight: 500; transition: transform 0.2s;">
     查看更多文章 →
   </a>
 </div>
