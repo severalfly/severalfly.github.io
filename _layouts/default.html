@@ -72,6 +72,11 @@
         &copy; {{ site.time | date: '%Y' }} {{ site.title }}. Published with <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
       </p>
       <p style="margin-top: 0.5rem; font-size: 0.875rem;">
+        {% if site.wechat %}
+        微信号: <strong>{{ site.wechat }}</strong>
+        {% endif %}
+      </p>
+      <p style="margin-top: 0.5rem; font-size: 0.875rem;">
         一起学习 JAVA
         <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=11c2e67fa3a7a504fff4a17c3fb89185d5a1fcf23ac13570a371551d24ef04dd" style="color: var(--text-secondary);">
           <img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="一起学JAVA吧" style="vertical-align: middle; margin: 0; box-shadow: none;" />
