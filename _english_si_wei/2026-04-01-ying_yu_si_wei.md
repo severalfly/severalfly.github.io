@@ -35,3 +35,19 @@ Since we're on this subject.(既然我们谈到了这个话题)
 on 的基本词义，是“一物在另一物之上”，而且是相互接触，有两个层面的含义：
 1. 一物以另一物为支撑或载体
 2. 一物以另一物为工具
+
+# 2026年04月07日 第二十五天
+第35页
+
+### 一物以另一物为支撑或载体
+全部是on 的示例，有具体的，也有抽象的，
+
+具体的：
+1. It's not easy to skate one foot.
+2. The man climbed down on a rope made of bed sheets. 此人从被单做成的绳子上爬了下来
+
+抽象的：
+1. Granddad lives on meat and potatoes. 祖父以吃肉和土豆为生
+2. The new laptops works on two AA batteries. 这台新笔记本电脑需要2节aa电池
+
+### 一物以另一物为工具
